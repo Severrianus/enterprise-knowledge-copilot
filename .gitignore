@@ -31,3 +31,7 @@ data/
 *.sqlite
 *.sqlite3
 secrets/
+
+
+# Local editor backups
+*.save

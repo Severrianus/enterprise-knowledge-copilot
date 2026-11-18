@@ -4,7 +4,18 @@ version = "0.1.0"
 description = "Enterprise Knowledge Copilot backend service"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "alembic>=1.20.1",
     "fastapi>=0.162.5",
+    "httpx>=0.28.1",
+    "minio>=7.2.20",
+    "openai>=3.52.0",
+    "psycopg[binary]>=3.3.9",
+    "pwdlib[argon2]>=0.4.2",
+    "pydantic-settings>=2.16.3",
+    "pyjwt>=2.15.1",
+    "pymilvus>=2.6,<2.7",
+    "python-multipart>=0.0.33",
+    "sqlalchemy>=2.0,<2.1",
     "uvicorn[standard]>=0.54.0",
 ]
 
